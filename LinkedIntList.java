@@ -133,7 +133,7 @@ public class LinkedIntList {
 	
 
 	/**
-	 * public boolean contains(int value) (1 pt)
+	 * public boolean contains(int value) 
 	 * Write a method contains that accepts a value and returns true if the value exists
 	 * in the linked list, otherwise it returns false
 
@@ -150,7 +150,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public void set(int index, int value) (1 pt)
+	 * public void set(int index, int value) 
 	 * Write a method set that accepts an index and a value and sets the list's element at that index 
 	 * to have the given value. 
 	 * You may assume that the index is between 0 (inclusive) and the size of the list (exclusive).
@@ -171,7 +171,7 @@ public class LinkedIntList {
 
 
 	/**
-	 * public boolean isSorted() (1 pt)
+	 * public boolean isSorted() 
 	 * Write a method isSorted that returns true if the list is in sorted (nondecreasing) order and 
 	 * returns false otherwise. 
 	 * An empty list is considered to be sorted.
@@ -189,7 +189,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public int deleteBack() (1 pt)
+	 * public int deleteBack() 
 	 * Write a method deleteBack that deletes the last value (the value at the back of the list) and 
 	 * returns the deleted value. 
 	 * If the list is empty, your method should throw a NoSuchElementException.
@@ -215,7 +215,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public int lastIndexOf(int value) (1 pt)
+	 * public int lastIndexOf(int value) 
 	 * Write a method lastIndexOf that accepts an integer value as a parameter and that returns the index 
 	 * in the list of the last occurrence of that value, or -1 if the value is not found in the list. 
 	 * For example, if a variable list stores the following sequence of values, then the call of 
@@ -246,7 +246,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public int kthFromTheEnd(int index) (2 pt)
+	 * public int kthFromTheEnd(int index) 
 	 * Write a method kthFromTheEnd that accepts an index as a parameter and that returns the value of
 	 * kth element from the end of the list.
 	 * For example, if a variable list stores the following sequence of values, then 
@@ -273,7 +273,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public void rotateLeft() (2 pt)
+	 * public void rotateLeft() 
 	 * Write a method rotateLeft that moves the value at the front of a list of integers to the end of the list. 
 	 * For example, if a variable called list stores the following sequence of values:
 	 * [1, 2, 3, 6, 8, 10]
@@ -316,7 +316,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public void rotateRight() (2 pt)
+	 * public void rotateRight() 
 	 * Write a method rotateRight that moves the value at the end of a list of integers to the front of the list. 
 	 * For example, if a variable called list stores the following sequence of values:
 	 * [1, 2, 3, 6, 8, 10]
@@ -346,7 +346,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public void removeDuplicates() (2 pt)
+	 * public void removeDuplicates() 
 	 * Write a method removeDuplicates that removes the duplicates in a sorted list. 
 	 * The list will be in sorted order, so all of the duplicates will be grouped together. 
 	 * For example, if a variable list stores the sequence of values below,
@@ -386,7 +386,7 @@ public class LinkedIntList {
 	}
 
 	/**
-	 * public void reverse()  (2 pt)
+	 * public void reverse()  
 	 * Write a method reverse that reverses the order of the elements in the list. 
 	 * For example, if the variable list initially stores this sequence of integers:
 	 * [1, 2, 5, 6, 8]
